@@ -28,9 +28,9 @@ MANIFEST.MF
 /nbdist/
 /.nb-gradle/
 /build/
-node_modules/
+node_modules/*
 node/
 target/
 dist/
 /.mvn
-/frontend/node_modules/
+/frontend/node_modules/*
