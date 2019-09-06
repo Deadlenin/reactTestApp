@@ -33,3 +33,4 @@ node/
 target/
 dist/
 /.mvn
+/frontend/node_modules/
