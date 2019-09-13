@@ -1,5 +1,15 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import App from "./component/app.component";
+import React from 'react'
+import { render } from 'react-dom'
+import Menu from './components/Menu'
+import data from './testData'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+
+window.React = React;
+
+render(
+    <Router>
+        <Menu recipes={data} />
+    </Router>,
+    document.getElementById("root")
+);
